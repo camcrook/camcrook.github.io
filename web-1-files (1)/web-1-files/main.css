@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.source-info {
+  background-color: darkgray;
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+  border: black solid 2px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.lead-caption {
+  font-size: 14px;
+  margin: 5px 0px;
+  line-height: 14px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.other-image {
+  max-width: 600px;
+  display: block;
+  margin: 30px auto 5px auto;
+}
+
+.other-caption {
+  font-size: 14px;
+  line-height: 14px;
+  max-width: 600px;
+  margin: 5px auto;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NPR News">
+    <meta name="description" content="Read the latest article from NPR about House Ethics report, Gaetz, and political developments in the Senate and Attorney General">
+    <title>Gaetz House Ethics Report | NPR</title>
+</head>
+<body>
+
+    <!-- Source Info Section -->
+    <p class="source-info">
+        <strong>Assignment Source: </strong>
+        <a href="https://www.npr.org/2024/11/20/g-s1-35053/gaetz-house-ethics-report-hill-outreach-senate-attorney-general" target="_blank">
+            https://www.npr.org/2024/11/20/g-s1-35053/gaetz-house-ethics-report-hill-outreach-senate-attorney-general
+        </a>
+    </p>
+
+    <!-- First Image -->
+    <img src="first-image.jpg" alt="Matt Gaetz addressing the House" />
+    <p class="lead-caption">
+        <i>Image credit: Photo by NPR</i>
+    </p>
+
+    <!-- Headline and Deck -->
+    <h1>Gaetz House Ethics Report: New Political Developments</h1>
+    <h2>This report delves into Congressman Matt Gaetz's alleged outreach efforts regarding Senate races and political activity related to the Attorney General's office.</h2>
+
+    <!-- Byline -->
+    <p><strong>By NPR News Staff</strong></p>
+
+    <!-- First Half of Story Text -->
+    <p>The House Ethics report on Matt Gaetz is creating political waves, with investigations surrounding his involvement in outreach to Senate races and communication with the Attorney General’s office. According to the report, Gaetz's actions have raised questions about potential ethical violations and conflicts of interest.</p>
+
+    <p>Representatives in both the House and Senate have been looking into whether Gaetz used his position for political leverage. This is one of several ongoing investigations into his conduct during his time in Congress, which has already attracted significant media attention.</p>
+
+    <p>Sources close to the investigation indicate that Gaetz may face further scrutiny as new evidence emerges, though his legal team has denied any wrongdoing. The findings are expected to influence his political future and possibly affect his standing in upcoming elections.</p>
+
+    <p>The ethics committee will continue its inquiry, but at present, no formal charges have been brought against Gaetz. However, the committee's findings could have significant repercussions for his career and for the broader political landscape.</p>
+
+    <!-- Second Image -->
+    <img class="other-image" src="second-image.jpg" alt="House Ethics Committee Members" />
+    <p class="other-caption">
+        <i>Image credit: AP Photo/Carolyn Kaster</i>
+    </p>
+
+    <!-- Remaining Story Text -->
+    <p>The issue has been a point of contention, especially with Gaetz's close connections to several high-profile political figures, both within and outside of Congress. As part of the investigation, the committee is reviewing communications and records that may reveal further ties to key political figures.</p>
+
+    <p>As this investigation unfolds, the political world remains on edge, with many waiting to see if Gaetz’s actions will lead to broader political consequences. Political analysts suggest that these developments could affect not only Gaetz’s future but also the direction of the GOP in the years to come.</p>
+
+    <p>At present, Gaetz remains in office, continuing his duties while the investigation progresses. The public and political responses will likely shape the future of the inquiry, especially as new information continues to surface. NPR will continue to monitor and report on these events as they unfold.</p>
+
+</body>
+</html>
